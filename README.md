@@ -23,7 +23,8 @@
             </tr>
         </tbody>
     </table>
-
+<p>LLM Interview questions: <a></a>https://github.com/llmgenai/LLMInterviewQuestions</a></p>
+    
     If I were to transition from Data Science to AI/ML engineering all over again in 2025, here is what I'd learn first: 
 https://docs.llamaindex.ai/en/stable/use_cases/agents/
 
