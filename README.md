@@ -24,6 +24,8 @@
         </tbody>
     </table>
 <p>LLM Interview questions: <a></a>https://github.com/llmgenai/LLMInterviewQuestions</a></p>
+
+Gen AI patterns : https://martinfowler.com/articles/gen-ai-patterns/
     
     If I were to transition from Data Science to AI/ML engineering all over again in 2025, here is what I'd learn first: 
 https://docs.llamaindex.ai/en/stable/use_cases/agents/
