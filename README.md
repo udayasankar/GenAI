@@ -1,4 +1,6 @@
 # GenAI
+aws bedrock: https://aws.amazon.com/blogs/machine-learning/accelerate-migration-portfolio-assessment-using-amazon-bedrock/
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
