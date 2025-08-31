@@ -159,7 +159,10 @@ Start here: Large Language Models: Application through Production - https://lnkd
 
 Ai Agent apps
 https://github.com/Shubhamsaboo/awesome-llm-apps
+
 https://github.com/ashishpatel26/500-AI-Agents-Projects
+
+https://newsletter.languagemodels.co/p/the-illustrated-gpt-oss
 
 
 </body>
