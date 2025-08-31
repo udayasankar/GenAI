@@ -155,8 +155,11 @@ Start here: Large Language Models: Application through Production - https://lnkd
 14. MongoDB AI - https://lnkd.in/g8c3HNaa 
 15. Amazon Machine Learning Blog - https://lnkd.in/g2Q3ZmEh
 16. Grammarly NLP/ML - https://lnkd.in/guMDtPfW 
-17. Spotify Machine Learning - https://lnkd.in/gGq7uj9g 
+17. Spotify Machine Learning - https://lnkd.in/gGq7uj9g
 
+Ai Agent apps
+https://github.com/Shubhamsaboo/awesome-llm-apps
+https://github.com/ashishpatel26/500-AI-Agents-Projects
 
 
 </body>
