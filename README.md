@@ -164,6 +164,8 @@ https://github.com/ashishpatel26/500-AI-Agents-Projects
 
 https://newsletter.languagemodels.co/p/the-illustrated-gpt-oss
 
+https://aiengineering.beehiiv.com/
+
 
 </body>
 </html>
