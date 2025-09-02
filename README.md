@@ -166,6 +166,8 @@ https://newsletter.languagemodels.co/p/the-illustrated-gpt-oss
 
 https://aiengineering.beehiiv.com/
 
+https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation
+
 
 </body>
 </html>
