@@ -1,6 +1,8 @@
 # GenAI
 aws bedrock: https://aws.amazon.com/blogs/machine-learning/accelerate-migration-portfolio-assessment-using-amazon-bedrock/
 
+https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
