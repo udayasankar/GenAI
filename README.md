@@ -168,6 +168,8 @@ https://aiengineering.beehiiv.com/
 
 https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation
 
+https://docs.google.com/spreadsheets/d/1XY0rimUsVyDSuPYN9VUDn-3nhQ463DYGixFOSutDucU/edit?gid=0#gid=0
+
 
 </body>
 </html>
