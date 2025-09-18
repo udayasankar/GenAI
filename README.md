@@ -1,180 +1,204 @@
-# GenAI
-aws bedrock: https://aws.amazon.com/blogs/machine-learning/accelerate-migration-portfolio-assessment-using-amazon-bedrock/
+Gen AI Learning Resources
+A comprehensive collection of resources for learning Generative AI, Machine Learning Engineering, and transitioning from Data Science to AI/ML Engineering.
+📋 Table of Contents
 
-https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
+Quick Reference Links
+Learning Paths
+Core Resources
+GitHub Repositories
+Company Engineering Blogs
+AI Agent Applications
+Additional Resources
 
-https://github.com/NirDiamant
+🔗 Quick Reference Links
+ResourceURLDescriptionAWS Bedrock Migration GuideAWS BlogMigration portfolio assessmentLLM Architecture ComparisonSebastian Raschka's MagazineComprehensive LLM architecture analysisNir Diamant's ResourcesGitHub ProfileAI/ML learning materialsAI Engineering Book ResourcesChip Huyen's ResourcesComprehensive AI engineering resourcesLLM Interview QuestionsGitHub RepoInterview preparation materialsGen AI PatternsMartin FowlerAI design patterns and practices
+🚀 Learning Paths
+Path 1: Data Science to AI/ML Engineering (2025)
+If transitioning from Data Science to AI/ML Engineering, focus on these areas:
+1. Software Engineering Fundamentals
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1>Gen AI Materials</h1>
-    <table style="width: 100%; border: 1px solid black; border-collapse: collapse;">
-        <thead>
-            <tr style="background-color: #f4f4f4;">
-                <th style="border: 1px solid black; padding: 8px;">No</th>
-                <th style="border: 1px solid black; padding: 8px;">URL</th>
-                <th style="border: 1px solid black; padding: 8px;">Comments</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td style="border: 1px solid black; padding: 8px; text-align: center;">1</td>
-                <td style="border: 1px solid black; padding: 8px;">https://github.com/chiphuyen/aie-book/blob/main/resources.md</td>
-                <td style="border: 1px solid black; padding: 8px;"></td>
-            </tr>
-        </tbody>
-    </table>
-<p>LLM Interview questions: <a></a>https://github.com/llmgenai/LLMInterviewQuestions</a></p>
+Master Git for tracking code and model changes
+Learn CI/CD pipelines for automated deployment
+Master Python, async/await, and OOP
+Practice writing clean, maintainable Python code (follow PEP8)
 
-Gen AI patterns : https://martinfowler.com/articles/gen-ai-patterns/
-    
-    If I were to transition from Data Science to AI/ML engineering all over again in 2025, here is what I'd learn first: 
-https://docs.llamaindex.ai/en/stable/use_cases/agents/
+2. API Development
 
-learn Software Engineering fundamentals
-– master git for tracking code and model changes
-– learn CI/CD pipelines for automated deployment
-- master Python, async/await, and OOP
-– practice writing clean, maintainable Python code, follow PEP8
+Build with FastAPI or Flask frameworks
+Understand HTTP/HTTPS protocols
+Learn REST APIs for model endpoints
+Grasp API authentication and rate limiting
 
-learn API development
-– try out building with FastAPI or Flask frameworks
-– understand http/https
-– learn rest APIs for model endpoints
-– grasp API authentication and rate limiting
+3. Data Infrastructure
 
-learn data infrastructure
-– understand vector databases (Pinecone, Weaviate)
-– practice storing, indexing, and querying unstructured data.
-– build data pipelines and ETL processes
-– learn about data streaming for real-time AI
+Understand vector databases (Pinecone, Weaviate)
+Practice storing, indexing, and querying unstructured data
+Build data pipelines and ETL processes
+Learn about data streaming for real-time AI
 
-learn cloud platforms
-– master aws/gcp/azure ML/AI services
-– understand docker, kubernetes 
-– learn serverless deployment options
-– implement cloud-based monitoring
+4. Cloud Platforms
 
-study MLops fundamentals
-– implement model monitoring and logging
-– master model versioning and registry
-– understand A/B testing in production
-– understand system monitoring and alerting
+Master AWS/GCP/Azure ML/AI services
+Understand Docker and Kubernetes
+Learn serverless deployment options
+Implement cloud-based monitoring
 
-learn production best practices
-– implement proper error handling
-- understand time/space complexity (Big O notation)
-– master debugging in production environments
-– master common AI system design patterns (prompt chaining, routing, parallelization, orchestration, and evaluation) 
+5. MLOps Fundamentals
 
-If tomorrow I were hit by a bus, got a concussion, and lost all of my memory. 
-I would be SAD, but I'd still want to learn ML engineering from scratch. And here is how I would do it in 2024, mostly in order:
+Implement model monitoring and logging
+Master model versioning and registry
+Understand A/B testing in production
+Understand system monitoring and alerting
 
-Learn math:
- - linear algebra: Matrices, vectors, linear equations and transformations, 
- - probability and statistics: Distributions, hypothesis testing, Bias-Variance Tradeoff, and conditional probability.
- - calculus: Derivatives, integrals, gradient descent.
+6. Production Best Practices
 
-Learn Python:
- - data structures: Lists, arrays, and dictionaries.
- - libraries: NumPy, Pandas for data manipulations, scikit-learn for ml and Matplotlib for data viz. 
- - code organization and control flow: Functions, loops, and conditionals. 
+Implement proper error handling
+Understand time/space complexity (Big O notation)
+Master debugging in production environments
+Master common AI system design patterns (prompt chaining, routing, parallelization, orchestration, and evaluation)
 
-Data Preprocessing:
- - learn how to handle missing values, duplicates, and outliers
- - read on feature engineering 
- - try out data normalization and scaling
+Path 2: ML Engineering from Scratch (2024)
+Complete learning path for beginners:
+1. Mathematics Foundation
 
-Core ML Algorithms:
- - Supervised Learning: Linear and Logistic Regression, and Classification algorithms(K-NN, Decision Trees, SVM)
- - Unsupervised Learning: Clustering (K-means) and dimensionality reduction techniques (PCA)
- - Reinforcement Learning: Basics of agents, environments, and reward systems
+Linear Algebra: Matrices, vectors, linear equations and transformations
+Probability and Statistics: Distributions, hypothesis testing, Bias-Variance Tradeoff, conditional probability
+Calculus: Derivatives, integrals, gradient descent
 
-Model Evaluation and Validation:
- - learn metrics like accuracy, precision, recall, and F1 score
- - cross-validation techniques
- - learn about overfitting and underfitting, and how to address them
+2. Python Fundamentals
 
-Get Hands-On Experience with Deployment:
- - use datasets from Kaggle and/or models from Huggingface. 
-- learn to deploy with Flask, FastAPI, and on Cloud (AWS or Azure or GCP)
- - participate in ml competitions or workshops. 
+Data Structures: Lists, arrays, and dictionaries
+Libraries: NumPy, Pandas for data manipulation, scikit-learn for ML, Matplotlib for visualization
+Code Organization: Functions, loops, and conditionals
 
-Digest everything before diving into advanced topics like:
- - ml frameworks like PyTorch, and TensorFlow 
- - neural networks, convolutional networks, and recurrent networks
- - understand (NLP) and computer vision (CV) applications and ensemble techniques 
+3. Data Preprocessing
 
-Focus on these first: 
+Handle missing values, duplicates, and outliers
+Feature engineering techniques
+Data normalization and scaling
 
-🔑 Understand Neural Networks
-LLMs are built on neural networks, so getting a handle on the basics like layers, activation functions, and backpropagation will take you further than focusing on the latest AI fad.
-Start here: Neural Networks and Deep Learning - https://lnkd.in/gsPi-nSj
+4. Core ML Algorithms
 
-🔑 Prompt Engineering Basics
-LLMs are only as good as the prompts they receive. Learning the fundamentals of crafting effective prompts can help you get better results from any AI coding assistant or LLM tool.
-Start here: Prompt Engineering Guide - https://lnkd.in/gtVtw5nU
+Supervised Learning: Linear/Logistic Regression, Classification algorithms (K-NN, Decision Trees, SVM)
+Unsupervised Learning: Clustering (K-means), dimensionality reduction (PCA)
+Reinforcement Learning: Agents, environments, reward systems
 
-🔑 Data Curation & Preparation
-LLMs need vast amounts of data to perform well. Understanding how to clean, preprocess, and organize data will always be a high-demand skill in this space.
-Start here: Training & Fine-Tuning: Data -https://lnkd.in/gmMApezn
+5. Model Evaluation and Validation
 
-🔑 NLP & LLM Fundamentals
-Natural Language Processing (NLP) is the heart of LLMs. Get familiar with concepts like tokenization, embeddings, and attention mechanisms to understand what drives LLM performance.
-Start here: Andrej Karpathy’s Zero to Hero playlist - https://lnkd.in/gQuHDJup
+Metrics: accuracy, precision, recall, F1 score
+Cross-validation techniques
+Overfitting and underfitting solutions
 
-🔑 Model Deployment & Scaling
-Knowing how to deploy, fine-tune, and monitor LLMs in production is just as important as building them. Cloud infrastructure and APIs will be your best friends here.
-Start here: Large Language Models: Application through Production - https://lnkd.in/gn8fBrrJ
+6. Hands-On Deployment Experience
 
-5 Best Github Repos to help you become a better ML / AI engineer: 
+Use datasets from Kaggle and models from Hugging Face
+Deploy with Flask, FastAPI, and Cloud platforms (AWS/Azure/GCP)
+Participate in ML competitions or workshops
 
+7. Advanced Topics (After mastering fundamentals)
 
-1. Applied ML. All About Machine Learning in Production by Eugene Yan (26k stars) - https://lnkd.in/gwrkyJtf
-2. Awesome Scalability. Build scalable ML systems by Binh Nguyen (56k stars) - https://lnkd.in/ghshNVKh
-3. Creme de la Creme of Free AI courses by Piotr Skalski (4.7k stars) - https://lnkd.in/gy4cPJZ6
-4. 60 Implementations of Deep Learning papers by labml.ai (60k stars) - https://lnkd.in/gnNE8Ptm
-5. Made with ML. Learn to design, develop, and deploy production-grade ML applications by Goku Mohandas (36k stars) - https://lnkd.in/gjCQqjiC
+ML frameworks: PyTorch, TensorFlow
+Neural networks, CNNs, RNNs
+NLP and Computer Vision applications
+Ensemble techniques
 
-17 Big Tech company blogs that will help you become a better Machine Learning Engineer: 👇 
+🔑 Key Focus Areas for LLM Success
+1. Neural Networks Foundation
+Understanding neural networks is crucial for LLMs. Focus on layers, activation functions, and backpropagation.
 
-1. Airbnb AI & Machine Learning - https://lnkd.in/gzAXfQg5 
-2. Databricks Data Science & ML - https://lnkd.in/gRPE8Gbm
-3. Google AI research applications - https://lnkd.in/gctN7Ths
-4. NVIDIA Data Science - https://lnkd.in/ghzhBPnm
-5. Apple Machine Learning Research - https://lnkd.in/gcJggDju 
-6. Stripe Machine Learning for Fraud Detection - https://lnkd.in/gKS4F-V3 
-7. Netflix Recommender System - https://lnkd.in/gm4pTRf4 
-8. Uber AI - https://lnkd.in/gXA8UEBU 
-9. X (aka Twitter) - https://lnkd.in/gNDME2-m 
-10. Pinterest Ads Recommender - https://lnkd.in/g8QXRH3i 
-11. Meta AI - https://lnkd.in/gGMp-Jh2
-12. Microsoft ML - https://lnkd.in/gm-aSSP9 
-13. DoorDash Data Science and ML - https://lnkd.in/gHkDwpvC 
-14. MongoDB AI - https://lnkd.in/g8c3HNaa 
-15. Amazon Machine Learning Blog - https://lnkd.in/g2Q3ZmEh
-16. Grammarly NLP/ML - https://lnkd.in/guMDtPfW 
-17. Spotify Machine Learning - https://lnkd.in/gGq7uj9g
+Resource: Neural Networks and Deep Learning
 
-Ai Agent apps
-https://github.com/Shubhamsaboo/awesome-llm-apps
+2. Prompt Engineering Basics
+Effective prompts are essential for getting good results from LLMs.
 
-https://github.com/ashishpatel26/500-AI-Agents-Projects
+Resource: Prompt Engineering Guide
 
-https://newsletter.languagemodels.co/p/the-illustrated-gpt-oss
+3. Data Curation & Preparation
+LLMs require vast amounts of clean, well-organized data.
 
-https://aiengineering.beehiiv.com/
+Resource: Training & Fine-Tuning: Data
 
-https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation
+4. NLP & LLM Fundamentals
+Master tokenization, embeddings, and attention mechanisms.
 
-https://docs.google.com/spreadsheets/d/1XY0rimUsVyDSuPYN9VUDn-3nhQ463DYGixFOSutDucU/edit?gid=0#gid=0
+Resource: Andrej Karpathy's Zero to Hero
 
+5. Model Deployment & Scaling
+Learn to deploy, fine-tune, and monitor LLMs in production.
 
-</body>
-</html>
+Resource: LLMs: Application through Production
 
+📚 Top GitHub Repositories
+Essential ML/AI Engineering Repos
+
+Applied ML - Machine Learning in Production by Eugene Yan (26k stars)
+Awesome Scalability - Build scalable ML systems by Binh Nguyen (56k stars)
+Free AI Courses - Curated free AI courses by Piotr Skalski (4.7k stars)
+Deep Learning Papers - 60 implementations by labml.ai (60k stars)
+Made with ML - Production-grade ML applications by Goku Mohandas (36k stars)
+
+🏢 Company Engineering Blogs
+Learn from industry leaders:
+Technology Companies
+
+Airbnb AI & Machine Learning
+Databricks Data Science & ML
+Google AI Research Applications
+NVIDIA Data Science
+Apple Machine Learning Research
+
+Financial & E-commerce
+
+Stripe Machine Learning for Fraud Detection
+Pinterest Ads Recommender
+
+Entertainment & Media
+
+Netflix Recommender System
+Spotify Machine Learning
+
+Transportation & Delivery
+
+Uber AI
+DoorDash Data Science and ML
+
+Social Media & Communication
+
+X (Twitter)
+Meta AI
+Grammarly NLP/ML
+
+Cloud & Enterprise
+
+Microsoft ML
+Amazon Machine Learning Blog
+MongoDB AI
+
+🤖 AI Agent Applications
+Explore practical AI agent implementations:
+
+Awesome LLM Apps - Collection of LLM applications
+500 AI Agents Projects - Comprehensive AI agent projects
+LlamaIndex Agents - Agent use cases and implementations
+
+📖 Additional Resources
+Newsletters & Publications
+
+The Illustrated GPT OSS
+AI Engineering Newsletter
+
+Research & Whitepapers
+
+Kaggle: Foundational LLM and Text Generation
+Comprehensive Resource Spreadsheet
+
+🤝 Contributing
+Feel free to contribute by:
+
+Adding new resources
+Updating broken links
+Suggesting improvements to the learning paths
+Sharing your experience with these resources
+
+📄 License
+This resource collection is shared for educational purposes. Please check individual resource licenses before use.
