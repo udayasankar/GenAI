@@ -3,6 +3,8 @@ aws bedrock: https://aws.amazon.com/blogs/machine-learning/accelerate-migration-
 
 https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
 
+https://github.com/NirDiamant
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
